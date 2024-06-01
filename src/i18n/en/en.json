@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "user": "Users",
+    "login": "Login",
+    "Not-found": "Not found",
+    "settings": "Settings",
+    "basic-info": "Basic Information"
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience on our site. By continuing to use this site, you agree to our use of cookies.",
+    "accept": "accept",
+    "reject": "reject"
+  },
+  "header": {
+    "logout": "Logout",
+    "login": "Login",
+    "profile": "Profile",
+    "settings": "Settings",
+    "arabic": "العربية",
+    "english": "English",
+    "notifications": "Notifications",
+    "search": "Search",
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "last-week": "Last week",
+    "last-month": "Last month",
+    "last-year": "Last year"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "nav": {
+      "dashboard": "الرئيسية",
+      "user": "المستخدمين",
+      "login": "تسجيل الدخول",
+      "Not-found": "Not found",
+      "settings" : "الاعدادات",
+      "basic-info": "البيانات الاساسية",
+      "vars-and-const": "المتغيرات والثوابت"
+  },
+  "cookie": {
+    "message": "نستخدم ملفات تعريف الارتباط الكوكيز من اجل تقديم احصاءات استخدام الموقع وتحسين الاداء",
+    "accept": "قبول",
+    "reject": "رفض"
+  },
+  "header": {
+    "logout": "تسجيل خروج",
+    "login": "تسجيل الدخول",
+    "profile": "الملف الشخصي",
+    "settings": "الاعدادات",
+    "arabic": "العربية",
+    "english": "English",
+    "notifications": "الاشعارات",
+    "search": "بحث",
+    "day": "يوم",
+    "month": "شهر",
+    "year": "سنة",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "last-week": "الأسبوع الماضي",
+    "last-month": "الشهر الماضي",
+    "last-year": "السنة الماضية",
+    "this-week": "هذا الاسبوع",
+    "this-month": "هذا الشهر",
+    "this-year": "هذا السنة",
+    "all-time": "كل الوقت",
+    "minutes": "دقائق",
+    "hours": "ساعات",
+    "youHave": "لديك",
+    "unreadMessages": " رسائل غير مقروئ ",
+    "new": "جديد"
+  },
+  "common": {
+    "yes": "نعم",
+    "no": "لا",
+    "cancel": "الغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "اغلاق",
+    "deleteConfirm": "هل تريد حذفه؟",
+    "editConfirm": "هل تريد تعديله؟",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "editSuccess": "تم التعديل بنجاح",
+    "deleteError": "حدث خطأ ما",
+    "viewAll": "عرض الكل"
+  }
+  
+
+}
