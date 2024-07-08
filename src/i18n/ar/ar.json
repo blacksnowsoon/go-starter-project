@@ -3,7 +3,7 @@
       "dashboard": "الرئيسية",
       "user": "المستخدمين",
       "login": "تسجيل الدخول",
-      "Not-found": "Not found",
+      "Not-found": "غير موجود",
       "settings" : "الاعدادات",
       "basic-info": "البيانات الاساسية",
       "vars-and-const": "المتغيرات والثوابت"
@@ -54,6 +54,14 @@
     "editSuccess": "تم التعديل بنجاح",
     "deleteError": "حدث خطأ ما",
     "viewAll": "عرض الكل"
+  },
+  "main": {
+    "title": "مرحباً بك في مشروع GoStarter"
+  },
+  "error": {
+    "not_found": "لقد حدث خطأ ما",
+    "not_found_msg": "الصفحة التي تبحث عنها غير موجودة",
+    "not_found_return": "العودة للرئيسية"
   }
   
 

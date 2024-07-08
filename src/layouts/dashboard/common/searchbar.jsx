@@ -7,7 +7,7 @@ import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
-
+import { useTranslation } from 'react-i18next';
 import { bgBlur } from 'src/theme/css';
 
 import Iconify from 'src/components/iconify';
@@ -41,7 +41,7 @@ const StyledSearchbar = styled('div')(({ theme }) => ({
 
 export default function Searchbar() {
   const [open, setOpen] = useState(false);
-
+  const {t} = useTranslation('translation', { keyPrefix: 'header' });
   const handleOpen = () => {
     setOpen(!open);
   };
@@ -65,7 +65,7 @@ export default function Searchbar() {
               autoFocus
               fullWidth
               disableUnderline
-              placeholder="Search…"
+              placeholder={t('search')}
               startAdornment={
                 <InputAdornment position="start">
                   <Iconify
@@ -76,8 +76,8 @@ export default function Searchbar() {
               }
               sx={{ mr: 1, fontWeight: 'fontWeightBold' }}
             />
-            <Button variant="contained" onClick={handleClose}>
-              Search
+            <Button variant="contained" onClick={handleClose} title={t('search')}>
+              {t('search')}
             </Button>
           </StyledSearchbar>
         </Slide>

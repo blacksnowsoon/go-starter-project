@@ -27,7 +27,7 @@ function Header({ onOpenNav }) {
   const renderContent = (
     <>
       {!lgUp && (
-        <IconButton onClick={onOpenNav} sx={{ mr: 1 }}>
+        <IconButton onClick={onOpenNav} sx={{ mr: 1 }} title="Open Menu">
           <Iconify icon="eva:menu-2-fill" />
         </IconButton>
       )}

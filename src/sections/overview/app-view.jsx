@@ -3,7 +3,7 @@
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
-
+import { useTranslation } from 'react-i18next';
 // import Iconify from 'src/components/iconify';
 
 // import AppTasks from '../app-tasks';
@@ -19,10 +19,11 @@ import Typography from '@mui/material/Typography';
 // ----------------------------------------------------------------------
 
 export default function AppView() {
+  const { t } = useTranslation('translation', { keyPrefix: 'main' });
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Hi, Welcome back 👋
+        {t('title')} 👋
       </Typography>
 
       <Grid container spacing={3}>
