@@ -5,7 +5,8 @@
     "login": "Login",
     "Not-found": "Not found",
     "settings": "Settings",
-    "basic-info": "Basic Information"
+    "basic-info": "Basic Information",
+    "vars-and-const": "Variables and Constants"
   },
   "cookie": {
     "message": "We use cookies to improve your experience on our site. By continuing to use this site, you agree to our use of cookies.",
@@ -28,7 +29,10 @@
     "yesterday": "Yesterday",
     "last-week": "Last week",
     "last-month": "Last month",
-    "last-year": "Last year"
+    "last-year": "Last year",
+    "youHave": "you have",
+    "unreadMessages": "unread messages",
+    "new": "new"
   },
   "main": {
     "title": "Welcome to GoStarter"
